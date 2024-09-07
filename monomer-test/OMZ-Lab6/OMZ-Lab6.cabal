@@ -1,0 +1,42 @@
+cabal-version:      3.0
+name:               monomer-starter
+version:            0.1.0.0
+homepage:           https://github.com/githubuser/monomer-starter#readme
+author:             Author name here
+maintainer:         example@example.com
+copyright:          2021 Author name here
+license:
+build-type:         Simple
+extra-source-files:
+  DICOM_Image_16b.dcm
+  README.md
+  shaders/*
+
+executable OMZ-Lab6
+  main-is:          Main.hs
+  other-modules:
+    App
+    Linear.OpenGL
+    OpenGLWidget
+    OpenGLWidgetNew
+    Paths_monomer_starter
+
+  hs-source-dirs:   src
+  ghc-options:      -Wall -threaded
+  build-depends:
+    , base          >=4.7 && <5
+    , binary
+    , bytestring
+    , containers
+    , data-default
+    , dicom
+    , lens
+    , linear
+    , monomer
+    , OpenGL
+    , OpenGLRaw
+    , text
+    , text-show
+    , vector
+    , convertible
+  default-language: Haskell2010

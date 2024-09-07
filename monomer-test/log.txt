@@ -1,0 +1,15 @@
+3.2.0 - Build 30.0.101.1340
+Len is: 65536
+[]
+Errors after setting vertex textures: []
+shader compiled
+shader compiled
+Program linked
+Program validated
+founb uniforms :sampler2D: UniformLocation 1 TransMat: UniformLocation 0
+sampler set
+transmat set
+Uniform errors: []
+Nothing to Render.
+Nothing to Render.
+Disposing...

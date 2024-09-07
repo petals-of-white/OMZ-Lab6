@@ -1,0 +1,7 @@
+optimization: False
+
+packages:
+    OMZ-Lab6, dicom
+
+package nanovg
+    flags: +stb_truetype

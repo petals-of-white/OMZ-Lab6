@@ -1,0 +1,6 @@
+packages: Lab6 dicom
+optimization: False
+allow-newer: linear, hashtables
+
+package sdl2
+    flags: -recent-ish
