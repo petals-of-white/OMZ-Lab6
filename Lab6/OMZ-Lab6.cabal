@@ -60,7 +60,6 @@ executable OMZ-Lab6
   main-is:          Main.hs
 
   -- Modules included in this executable, other than Main.
-  -- other-modules:
   --   AppState
   --   Graphics.Render
   --   Graphics.Shaders
@@ -72,9 +71,6 @@ executable OMZ-Lab6
   -- LANGUAGE extensions used by modules in this package.
   -- other-extensions:
   -- Other library packages from which modules are imported.
-  
-    
-
   build-depends:
     , base
     , binary
@@ -100,6 +96,6 @@ executable OMZ-Lab6
 
   -- Directories containing source files.
   hs-source-dirs:   app
-  
+
   -- Base language which the package is written in.
   default-language: GHC2021

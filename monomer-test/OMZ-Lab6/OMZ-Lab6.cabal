@@ -28,6 +28,7 @@ executable OMZ-Lab6
     , binary
     , bytestring
     , containers
+    , convertible
     , data-default
     , dicom
     , lens
@@ -38,5 +39,5 @@ executable OMZ-Lab6
     , text
     , text-show
     , vector
-    , convertible
+
   default-language: Haskell2010
